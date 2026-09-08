@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.js",
+    "test-shell": "dbus-run-session -- gnome-shell --wayland --devkit  # requires mutter-devkit", 
     "pack": "gnome-extensions pack --force --extra-source=lib --extra-source=schemas --extra-source=stylesheet.css --extra-source=prefs.js",
     "install-local": "gnome-extensions install --force lasso@frephs.github.io.shell-extension.zip"
   },
