@@ -1,0 +1,20 @@
+{
+  "name": "overview-highlight",
+  "version": "1.0.0",
+  "description": "Lasso: Multi-window selection in Overview with box selection, range selection, and bulk window actions using the system accent color.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "pack": "gnome-extensions pack --force --extra-source=lib --extra-source=schemas --extra-source=stylesheet.css --extra-source=prefs.js",
+    "install-local": "gnome-extensions install --force overview-highlight@frephs.github.io.shell-extension.zip"
+  },
+  "keywords": [
+    "gnome-shell",
+    "extension",
+    "overview",
+    "window-management",
+    "multiselect"
+  ],
+  "author": "",
+  "license": "GPL-3.0"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.overview-highlight" path="/org/gnome/shell/extensions/overview-highlight/">
+    <key name="show-badge" type="b">
+      <default>true</default>
+      <summary>Show checkmark badge</summary>
+      <description>Display a checkmark indicator badge on selected windows.</description>
+    </key>
+    <key name="drag-threshold" type="i">
+      <default>5</default>
+      <summary>Drag Threshold</summary>
+      <description>Distance in pixels before marquee drag selection starts.</description>
+    </key>
+    <key name="close-on-delete-key" type="b">
+      <default>true</default>
+      <summary>Close on Delete key</summary>
+      <description>Allow closing selected windows with the Delete, Backspace, or Ctrl+W key.</description>
+    </key>
+    <key name="padding-override" type="i">
+      <default>12</default>
+      <summary>Highlight Padding Override</summary>
+      <description>Padding in pixels between window previews and selection highlight outline.</description>
+    </key>
+    <key name="use-color-override" type="b">
+      <default>false</default>
+      <summary>Use Color Override</summary>
+      <description>Override system accent color with a custom highlight color.</description>
+    </key>
+    <key name="color-override" type="s">
+      <default>'#3584e4'</default>
+      <summary>Color Override</summary>
+      <description>Custom highlight color in hex format (e.g. #3584e4).</description>
+    </key>
+  </schema>
+</schemalist>
