@@ -1,4 +1,4 @@
-# <img src="assets/lasso.svg" alt="Lasso Icon" width="32" height="32" valign="middle"> Gnome Lasso: window overview manager extension for GNOME 50+
+# <img src="assets/lasso.svg" alt="Lasso Icon" width="64" height="64" valign="middle"> Gnome Lasso: window overview manager extension for GNOME 50+
 
 [![GNOME Shell 50](https://img.shields.io/badge/GNOME%20Shell-50%20%7C%2050.4-3584e4?logo=gnome&logoColor=white)](https://gitlab.gnome.org/GNOME/gnome-shell)
 [![Tests Passing](https://img.shields.io/badge/tests-29%20passed-success?logo=node.js&logoColor=white)](tests)
@@ -63,17 +63,17 @@ gnome-extensions pack --force --extra-source=lib --extra-source=schemas --extra-
 ```bash
 npm run install-local
 # or:
-gnome-extensions install --force overview-highlight@frephs.github.io.shell-extension.zip
+gnome-extensions install --force lasso@frephs.github.io.shell-extension.zip
 ```
 
 ### Enable
 ```bash
-gnome-extensions enable overview-highlight@frephs.github.io
+gnome-extensions enable lasso@frephs.github.io
 ```
 
 ### Preferences
 ```bash
-gnome-extensions prefs overview-highlight@frephs.github.io
+gnome-extensions prefs lasso@frephs.github.io
 ```
 
 ---

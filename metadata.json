@@ -1,5 +1,5 @@
 {
-  "uuid": "overview-highlight@frephs.github.io",
+  "uuid": "lasso@frephs.github.io",
   "name": "Lasso",
   "description": "Multi-window selection in Overview with mouse box selection, continuous and discontinuous range selection, accent-color highlight, and bulk actions (close all, move to workspace).",
   "shell-version": [
@@ -7,6 +7,6 @@
     "50.4"
   ],
   "url": "https://github.com/frephs/overview-higlight",
-  "settings-schema": "org.gnome.shell.extensions.overview-highlight",
+  "settings-schema": "org.gnome.shell.extensions.lasso",
   "version": 1
 }

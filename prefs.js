@@ -9,9 +9,9 @@ import Gtk from 'gi://Gtk';
 
 import {ExtensionPreferences, gettext as _} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
-export default class OverviewHighlightPreferences extends ExtensionPreferences {
+export default class LassoPreferences extends ExtensionPreferences {
     fillPreferencesWindow(window) {
-        const settings = this.getSettings('org.gnome.shell.extensions.overview-highlight');
+        const settings = this.getSettings('org.gnome.shell.extensions.lasso');
 
         const page = new Adw.PreferencesPage({
             title: _('General'),

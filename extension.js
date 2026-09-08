@@ -5,9 +5,9 @@
 import {Extension} from 'resource:///org/gnome/shell/extensions/extension.js';
 import {OverviewManager} from './lib/overviewManager.js';
 
-export default class OverviewHighlightExtension extends Extension {
+export default class LassoExtension extends Extension {
     enable() {
-        this._settings = this.getSettings('org.gnome.shell.extensions.overview-highlight');
+        this._settings = this.getSettings('org.gnome.shell.extensions.lasso');
         this._overviewManager = new OverviewManager(this._settings);
     }
 

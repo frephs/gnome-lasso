@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="org.gnome.shell.extensions.overview-highlight" path="/org/gnome/shell/extensions/overview-highlight/">
+  <schema id="org.gnome.shell.extensions.lasso" path="/org/gnome/shell/extensions/lasso/">
     <key name="show-badge" type="b">
       <default>true</default>
       <summary>Show checkmark badge</summary>
