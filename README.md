@@ -1,7 +1,7 @@
 # <img src="assets/lasso.svg" alt="Lasso Icon" width="64" height="64" valign="middle"> Gnome Lasso: window overview manager extension for GNOME 50+
 
 [![GNOME Shell 50](https://img.shields.io/badge/GNOME%20Shell-50%20%7C%2050.4-3584e4?logo=gnome&logoColor=white)](https://gitlab.gnome.org/GNOME/gnome-shell)
-[![Tests Passing](https://img.shields.io/badge/tests-29%20passed-success?logo=node.js&logoColor=white)](tests)
+
 [![Version](https://img.shields.io/badge/version-1.0.0-orange)](metadata.json)
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE)
 
