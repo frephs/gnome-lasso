@@ -7,7 +7,7 @@
 Multi-window marquee selection, range picking, and batch actions for the GNOME 50 Overview.
 
 <div align="center">
-  <img src="assets/screenshot.png" alt="Lasso Screenshot" width="850" style="border-radius: 8px;">
+  <img src="assets/demo.gif" alt="Lasso Demo" width="850">
 </div>
 
 
@@ -22,13 +22,6 @@ Multi-window marquee selection, range picking, and batch actions for the GNOME 5
   - **Deselect**: Clear the selection.
 - **Batch Drag & Drop**: Drag any selected window to another workspace thumbnail to move all selected windows together. Shows a badge with the selection count.
 - **Accent Color Matching**: Uses GNOME's system accent color by default, with custom color overrides in preferences.
-
-
-## Demo
-
-<div align="center">
-  <img src="assets/demo.gif" alt="Lasso Demo" width="850" style="border-radius: 8px;">
-</div>
 
 
 ## Shortcuts
