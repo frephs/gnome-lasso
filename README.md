@@ -10,7 +10,6 @@ Multi-window marquee selection, range picking, and batch actions for the GNOME 5
   <img src="assets/screenshot.png" alt="Lasso Screenshot" width="850" style="border-radius: 8px;">
 </div>
 
----
 
 ## Features
 
@@ -24,7 +23,6 @@ Multi-window marquee selection, range picking, and batch actions for the GNOME 5
 - **Batch Drag & Drop**: Drag any selected window to another workspace thumbnail to move all selected windows together. Shows a badge with the selection count.
 - **Accent Color Matching**: Uses GNOME's system accent color by default, with custom color overrides in preferences.
 
----
 
 ## Demo
 
@@ -32,7 +30,6 @@ Multi-window marquee selection, range picking, and batch actions for the GNOME 5
   <img src="assets/demo.gif" alt="Lasso Demo" width="850" style="border-radius: 8px;">
 </div>
 
----
 
 ## Shortcuts
 
@@ -47,7 +44,6 @@ Multi-window marquee selection, range picking, and batch actions for the GNOME 5
 | **Move to Workspace** | Toolbar `Move to Workspace ▾` | Move selection to another workspace |
 | **Batch Drag** | Drag any selected window | Move all selected windows to target workspace |
 
----
 
 ## Installation & Packaging
 
@@ -75,7 +71,6 @@ gnome-extensions enable lasso@frephs.github.io
 gnome-extensions prefs lasso@frephs.github.io
 ```
 
----
 
 ## Testing
 
@@ -85,7 +80,6 @@ Run unit tests with the Node.js test runner:
 npm test
 ```
 
----
 
 ## License
 
