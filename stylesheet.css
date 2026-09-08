@@ -1,0 +1,136 @@
+/* Lasso - GNOME Overview Multi-Select Stylesheet
+ * Uses GNOME Shell's native -st-accent-color to match system preferences.
+ */
+
+/* Selection Rubberband Marquee */
+.overview-selection-rubberband {
+    border: 2px solid -st-accent-color;
+    background-color: st-transparentize(-st-accent-color, 0.82);
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+/* Window Highlight Overlay with padding around window */
+.overview-window-selected-highlight {
+    border: 3.5px solid -st-accent-color;
+    background-color: st-transparentize(-st-accent-color, 0.94);
+    border-radius: 22px;
+    box-shadow: none;
+}
+
+/* Floating Action Toolbar Outer Container */
+.overview-action-toolbar-container {
+    spacing: 8px;
+}
+
+/* Floating Action Toolbar Main Pill */
+.overview-action-toolbar {
+    background-color: rgba(26, 26, 30, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 9999px;
+    padding: 8px 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    spacing: 10px;
+}
+
+/* Floating Workspace Picker Popup Pill */
+.overview-workspace-popup {
+    background-color: rgba(26, 26, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 9999px;
+    padding: 6px 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    spacing: 8px;
+}
+
+/* Workspace Popup Label */
+.overview-workspace-popup-title {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 10pt;
+    font-weight: 600;
+    padding: 0 4px;
+}
+
+/* Selected Count Status Label (non-button appearance) */
+.overview-action-toolbar-badge {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 0 8px 0 4px;
+    font-size: 10.5pt;
+    font-weight: 600;
+}
+
+/* Drag Actor Count Badge */
+.overview-drag-count-badge {
+    background-color: -st-accent-color;
+    color: -st-accent-fg-color;
+    border-radius: 9999px;
+    padding: 6px 12px;
+    font-size: 10pt;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Action Toolbar Buttons */
+.overview-action-button {
+    border-radius: 9999px;
+    padding: 10px 16px;
+    font-size: 10.5pt;
+    font-weight: 600;
+    color: #f6f6f6;
+    background-color: rgba(255, 255, 255, 0.08);
+    transition-duration: 150ms;
+}
+
+.overview-action-button:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+}
+
+.overview-action-button:active {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Workspace Specific Action Buttons */
+.overview-action-button.workspace-btn {
+    padding: 6px 14px;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.overview-action-button.workspace-btn.current {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.overview-action-button.workspace-btn.new-ws {
+    background-color: st-transparentize(-st-accent-color, 0.75);
+    color: #ffffff;
+}
+
+.overview-action-button.workspace-btn.new-ws:hover {
+    background-color: -st-accent-color;
+    color: -st-accent-fg-color;
+}
+
+.overview-action-button.workspace-btn.dismiss {
+    padding: 6px 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.overview-action-button.workspace-btn.dismiss:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Destructive / Close Button */
+.overview-action-button.destructive {
+    background-color: rgba(224, 27, 36, 0.2);
+    color: #ff7b7b;
+}
+
+.overview-action-button.destructive:hover {
+    background-color: rgba(224, 27, 36, 0.85);
+    color: #ffffff;
+}
