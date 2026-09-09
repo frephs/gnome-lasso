@@ -3,6 +3,8 @@
   "name": "Lasso",
   "description": "Multi-window selection in Overview with mouse box selection, continuous and discontinuous range selection, accent-color highlight, and bulk actions (close all, move to workspace).",
   "shell-version": [
+    "48",
+    "49",
     "50",
     "50.4"
   ],
